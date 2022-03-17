@@ -1,0 +1,41 @@
+*{
+    box-sizing:border-box;
+}
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 20px;
+  box-sizing:border-box;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.text1{
+    text-align: center;
+}
+.buton1{
+    text-align: center;
+    font-size: 16px;
+    background-color: #000000;
+    color: white;
+    padding: 20px 30px;
+    border: none;
+    margin: 15px 70px;
+  
+}
+.buton2{
+    text-align: center;
+    font-size: 16px;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    padding: 17px 30px;
+    border: 4px solid black;
+   
+    
+}
+.buttons{
+    margin-left: 10%;
+    margin-right: 100px;
+}
